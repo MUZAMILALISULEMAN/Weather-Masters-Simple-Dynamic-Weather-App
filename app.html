@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Masters</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="navul">
+                <li class="items"><span class="material-icons" >home</span> <a href="home.html">Home</a></li>
+                <li class="items"><span class="material-icons" >sunny</span> <a href="app.html">Current Weather</a></li>
+                <li class="items"><span class="material-icons" >person</span> <a href="aboutus.html">About Us</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sect1">
+    <div id="message">Enter the city</div>
+        <div id="curcont" tabindex="0">
+            <span class="material-icons back" id="back">arrow_back</span> 
+            <div id="part1" class="cweather"><img src="" alt="img" id="statusICON"><div id="statustext">Thunderstorm</div></div>
+            <div id="part2" class="cweather">
+                <div id="scont">
+
+                    <div class="info">
+                        <span class="material-icons">thermostat</span> TEMPERATURE: <p id="temp" class="marginLeft">&numsp;30</p>
+                    </div>
+                    <div class="info">
+                        <span class="material-icons">thermostat_auto</span> APPARENT TEMPERATURE: <p id="Atemp" class="marginLeft">&numsp;40</p>
+                    </div>
+                    <div class="info">
+                        <span class="material-icons">water_drop</span> HUMIDITY: <p id="humi" class="marginLeft">&numsp;30</p>
+                    </div>
+                    <div class="info">
+                        <span class="material-icons">air</span> WIND: <p id="wind" class="marginLeft">&numsp;30</p>
+                    </div>
+                    <div class="info">
+                        <span class="material-icons " id="windDirection">navigation</span> WIND DIRECTION: <p id="wDirect" class="marginLeft">&numsp;SW</p>
+                    </div>
+                    <div class="info"> 
+                        <span class="material-icons">cloud</span> CLOUDS: <p id="clouds" class="marginLeft">&numsp;80%</p>
+                    </div>
+                    <div class="info">
+                        <span class="material-icons">waves</span> SEA PRESSURE: <p id="pressure" class="marginLeft">&numsp;10hpa</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            <div id="searchcont">
+                <div id="s_cont">
+                        <div id="searchsection">
+                                <h1 id="heading">WEATHER MASTERS</h1>
+                                <div><span id="placeholder">Enter City...</span><input type="text" id="city" autocomplete="off"></div>
+                        </div>
+                        <div id="buttonsection">
+                                <button id="searchbtn" class="btn"><span class="material-icons btnicons">travel_explore</span>Search</button>
+                                <button id="geolocation" class="btn"><span class="material-icons btnicons">my_location</span>Location</button>
+                        </div>
+                </div>
+            </div>
+            <div id="loadercont">
+                <h1 id="loaderHeading">Loading...</h1>
+                <div id="loader"></div>
+            </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/dc668022f1.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *{
+
+            padding: 0;
+            margin: 0;
+        }
+        body{
+
+            background: #f36841;
+            user-select: none;
+            
+        }
+        .about-container{
+            gap: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+        
+        }
+        .section1{
+            cursor: pointer;
+            margin-top: 40px;
+            display: flex;
+            width: 700px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 280px;
+            background-color: #1E3E62;
+            font-family: montserrat;
+            color: white;
+            box-shadow: 0 22px 25px rgba(0, 0, 0, 0.2);
+            
+        }
+        ol{
+            list-style: none;
+            position: relative;
+        }
+        .pointersli{
+    
+            position: absolute;
+            left: 0px;
+            background-color: #f36841;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            
+        }
+       li{
+        margin-left: 40px;
+       }
+        .section2{
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: montserrat;
+            gap: 10px;
+        }
+        .cont{
+            display: flex;
+            gap: 30px;
+        }
+        .cont > div{
+            height: 200px;
+            width: 270px;
+            background-color: #fff;
+         text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 22px 25px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            position: relative;
+            overflow: hidden;
+
+
+        }
+        li{
+            margin-top: 10px;
+        }
+        .section3{
+            cursor: pointer;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: montserrat;
+            width: 550px;
+            height: 420px;
+            background-color: #1E3E62;
+            color: white;
+            box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+            gap: 7px;
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            
+        }
+        h1{
+            color: white;
+            position: relative;
+            
+        }
+        #t_line{
+            position: absolute;
+            width: 100px;
+            height: 3px;
+            background-color: white;
+            bottom: 0px;
+            left: 50%;
+            
+        }
+        #credits_line{
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background-color: white;
+            bottom: 0px;
+            left: 47%;
+            
+        }
+        #btn{
+            text-decoration: none;
+            color: white;
+            background-color: #f36841;
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin-top: 3px;
+            transition: all 0.3s;
+        }
+        #btn:hover{
+            
+            background-color: #1E3E62;
+            color: #f36841;
+            transform: scale(1.2);
+            font-weight: bold;
+            
+            
+        }
+        .pointers{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: absolute;
+            width: 19px;
+            top: 7%;
+            left: 0%;
+            background-color: #1E3E62;
+            width: 49px;
+            height: 39px;
+            border-top-right-radius: 10px;
+            transition: 0.5s ease;
+            
+            
+        }
+        .pointers:hover{
+                width: 100px;
+            
+        }
+        #outro{
+            text-align: center;
+            font-family: poppins;
+            font-weight: 500;
+            box-shadow: 0 22px 25px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            background-color: #fff;
+            padding: 20px 30px;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 30px;
+            transition: all 0.5s;
+            color: #1E3E62;
+         
+        }
+        #appf_line{
+            position: absolute;
+            width: 100px;
+            height: 3px;
+            background-color: white;
+            bottom: 0px;
+            left: 53%;
+            
+        }
+        #outro:hover{
+            transform: scale(1.1);
+        }
+        #link{
+            color: #f36841;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        #link:hover{
+            
+            text-decoration: underline;
+        }
+        /* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background-color: #1E3E62; /* Light grey for the track */
+  
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #fff; /* Your base color */
+ 
+}
+
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 5px; /* Scrollbar width */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="about-container">
+      
+
+        <div class="section1">
+            <h1><span id="appf_line"></span>App Features</h1>
+            <ol>
+                <li><span class="pointersli">1</span>Accurate and real-time weather updates.</li>
+                <li><span class="pointersli">2</span>Easy-to-use interface with quick search functionality.</li>
+                <li><span class="pointersli">3</span>Geolocation feature for location-based weather data.</li>
+                <li><span class="pointersli">4</span>Detailed information on temperature, humidity, and wind speed.</li>
+                <li><span class="pointersli">5</span>Customizable settings for metric and imperial units.</li>
+            </ol>
+        </div>
+
+        <div class="section2">
+            <h1>Testimonials <span id="t_line"></span></h1>
+            <br>
+            <div class="cont">
+                <div> <p class="testimonial"><span class="pointers">1</span> "Fantastic app with dependable forecasts! Clear, easy to use, and always accurate."<br> - Jamie L.</p></div>
+                <div><p class="testimonial"><span class="pointers">2</span> "Love the clean design and real-time updates. Makes planning my day so much easier."<br> - Chris W.</p></div>
+                <div><p class="testimonial"><span class="pointers">3</span> "Super accurate forecasts and simple to use. Always keeps me prepared for the day.""<br> - Alex M.</p></div>
+            </div>
+       
+        </div>
+
+        <div class="section3">
+            <h1>Credits <span id="credits_line"></span></h1>
+            <br>
+            <div id="outro">Members: <br>Muzamil Suleman 24K-1023<br> Ali Asghar 24K-0780<br> Hasheem Shuja 24K-0521</div>
+            <br><p>Weather data provided by <a href="https://openweathermap.org/" id="link" target="_blank">OpenWeatherMap</a></p>
+            <p>Icons and UI elements inspired by Material Icons.</p>
+            <br>
+            <a href="app.html" id="btn">Home</a>
+
+        </div>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family:roboto;
+        }
+        #sec{
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+        #col1{
+            height: 100vh;
+            width: 100%;
+            background-color: #f36841;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+
+        }
+        #col1 > h1{
+            color: white;
+            text-align: center;
+            font-size: 45px;
+            position: relative;
+        }
+        #col1 >p{
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            background-color: #014660;
+            color: #fff;
+            padding: 30px 25px;
+            font-family: 'poppins';
+            text-transform: capitalize;
+            border-radius: 20px 0px 20px 0px;
+        }
+
+        #navigate{
+            color:#014660;
+            text-decoration: none;
+            background-color: #fff;
+            padding: 15px 26px;
+            border-radius: 4px;
+            transition: 0.3s ease;
+        }
+        #navigate:hover{
+            transform: scale(1.1);
+           
+        }
+        #navigate>span{
+            vertical-align: middle;
+        }
+        #one,#two{
+            position: absolute;
+            height: 90px;
+            width: 9px;
+            background-color: #fff;
+        }
+        #one{
+            top: 5px;
+            left:-40px;   
+        }
+        #two{
+            top: 5px;
+            right:-40px;  
+        }
+    </style>
+</head>
+<body>
+    <section id="sec">
+        <div id="col1">
+            <h1><span id="one"></span>YOUR WEATHER<br>YOUR WAY<span id="two"></span></h1>
+            <p>Stay ahead of the weather <br> with real-time updates,<br> accurate forecasts, and personalized insights</p>
+            <a href="app.html" id="navigate">Get Started <span class="material-icons">
+                rocket_launch
+                </span></a>
+        </div>
+        
+    </section>
+</body>
+</html>
