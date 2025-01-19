@@ -15,7 +15,7 @@ This Weather App provides real-time weather updates for cities around the world.
 - JavaScript  
 - Weather API (e.g., OpenWeatherMap)  
 
-## Setup 
-    Clone the repository:  
+## Setup
+Clone the repository:  
    ```bash
    git clone https://github.com/MUZAMILALISULEMAN/WEATHER-APP-WEBSITE---IICT.git
