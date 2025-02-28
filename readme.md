@@ -1,35 +1,34 @@
-🌦️ Weather App Website
+### 🌦️ Weather App Website
 
-Description
+## Description
 
 Welcome to the Weather App Website — a sleek and user-friendly platform providing real-time weather updates for cities worldwide. This application is built with modern web technologies, ensuring a responsive and intuitive user experience across all devices.
 
 🌟 Features
 
-🔍 City-Based Search Functionality – Instantly fetch weather updates for any city.
+🔍 City-Based Search Functionality — Instantly fetch weather updates for any city.
 
-🌡️ Real-Time Weather Conditions – Temperature, humidity, and wind speed at your fingertips.
+🌡️ Real-Time Weather Conditions — Temperature, humidity, and wind speed at your fingertips.
 
-🎨 Dynamic & Responsive UI – Seamlessly adapts to different screen sizes.
+🎨 Dynamic & Responsive UI — Seamlessly adapts to different screen sizes.
 
-🌐 API Integration – Live weather data sourced from OpenWeatherMap API.
+🌐 API Integration — Live weather data sourced from OpenWeatherMap API.
 
-💪 User-Friendly Interface – Clean and simple layout for an effortless user experience.
+💪 User-Friendly Interface — Clean and simple layout for an effortless user experience.
 
 🛠️ Technologies Used
 
-HTML – Structure and layout
+HTML — Structure and layout
 
-CSS – Styling and design
+CSS — Styling and design
 
-JavaScript – Interactive functionality
+JavaScript — Interactive functionality
 
-OpenWeatherMap API – Real-time weather data
+OpenWeatherMap API — Real-time weather data
 
-🎯 How to Use
+📄 License
 
-Enter the name of the city in the search bar.
+This project is licensed under the MIT License.
 
-Click the Search button.
+Feel free to explore, contribute, and enhance the app! 🌐✨
 
-View the current weather conditions including temperature, humidity, and wind speed.
