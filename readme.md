@@ -1,4 +1,4 @@
-# **Weather Masters 🌐 | Simple & Dynamic Weather App**
+# **Weather Masters 🌦️ | Simple & Dynamic Weather App**
 
 ## Description
 
