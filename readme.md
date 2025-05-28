@@ -1,34 +1,26 @@
-# **Weather Masters 🌦️ | Simple & Dynamic Weather App**
+# 🌦️ Weather Masters – Simple & Dynamic Weather App
 
-## Description
+Welcome to **Weather Masters**, a sleek and user-friendly web application that provides real-time weather updates for cities worldwide. Built with modern web technologies, this app ensures a responsive and intuitive user experience across all devices.
 
-Welcome to the Weather Masters — a sleek and user-friendly platform providing real-time weather updates for cities worldwide. This application is built with modern web technologies, ensuring a responsive and intuitive user experience across all devices.
+## 🌐 Live Demo
 
-🌟 Features
+> 🚀 https://muzamilalisuleman.github.io/Weather-Masters-Simple-Dynamic-Weather-App/
 
-🔍 City-Based Search Functionality — Instantly fetch weather updates for any city.
+## 📸 Preview
 
-🌡️ Real-Time Weather Conditions — Temperature, humidity, and wind speed at your fingertips.
+![Weather Masters Preview](./PREVIEW.png)
 
-🎨 Dynamic & Responsive UI — Seamlessly adapts to different screen sizes.
+## 🛠️ Features
 
-🌐 API Integration — Live weather data sourced from OpenWeatherMap API.
+- **City-Based Search Functionality**: Instantly fetch weather updates for any city.
+- **Real-Time Weather Conditions**: Access temperature, humidity, and wind speed data.
+- **Dynamic & Responsive UI**: Seamlessly adapts to various screen sizes for optimal viewing.
+- **API Integration**: Live weather data sourced from [OpenWeatherMap](https://openweathermap.org/api).
 
-💪 User-Friendly Interface — Clean and simple layout for an effortless user experience.
+## 🧰 Technologies Used
 
-🛠️ Technologies Used
-
-HTML — Structure and layout
-
-CSS — Styling and design
-
-JavaScript — Interactive functionality
-
-OpenWeatherMap API — Real-time weather data
-
-📄 License
-
-This project is licensed under the MIT License.
-
-Feel free to explore, contribute, and enhance the app! 🌐✨
+- **HTML5**: Structuring the web pages.
+- **CSS3**: Styling and layout.
+- **JavaScript (ES6)**: Handling logic and API interactions.
+- **OpenWeatherMap API**: Fetching real-time weather data.
 
